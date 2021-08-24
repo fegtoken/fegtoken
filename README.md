@@ -7,7 +7,7 @@ Note this repository is not the repository where the devs are working on. It has
 
 FEG and it's environment is closed source  thus we will only upload the solidity files that are already public to see on the blockchain!
 
-** If something is missing  feel free to make a pull request. **
+**If something is missing  feel free to make a pull request.**
 
 
 # Updates
