@@ -12,6 +12,32 @@ FEG and it's environment is closed source  thus we will only upload the solidity
 
 # Updates
 
+## 03/09/2021
+
+### Migration towards pairs v2.1
+
+* New pairs have been made on fegex. These pairs will now be able to be trade for a 1:1 instead of 1:0.99 which was previously the case because of the 1% from the wrapping/unwrapping process.
+* Increasing the data accuracy such that it's easier to create proper charts. This will also help for fegcharts.
+* Swap 2 swap has been implemented with it as well
+
+### First smartdefi pair has been created
+
+ROX token is now finaly out on the ETH and BSC chain.
+
+### Autodeployer
+
+* Autodeployer has been released as well. Now everyone has the ability to create new pairs over on  fegdeployer.com . 
+* If help is required please check out [the video](https://www.youtube.com/watch?v=AgjBD6F905U) or the [FAQ](https://docs.google.com/document/d/1u943HybA7zrhXJSwClBu1YnWX9yDX5gEoDmIsqe5kVI)
+* Every new pair will be locked for 1 year.
+* Each new pair can be searched via contract address.
+* Each verified pair can be searched by name
+* On the first week teamtokens tax is set to 0 until the pool owner is verified. This is one way we ensured that the tokens creators didn't got frontrunned.
+
+### Fegstats
+
+* Displaying of ROX token with the baseline on it as well.
+* Early charting for ROX has been created.
+
 ## 24/08/2021
 ### Swap 2 swap
 #### Highlights:
