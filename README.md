@@ -12,6 +12,50 @@ FEG and it's environment is closed source  thus we will only upload the solidity
 
 # Updates
 
+## 20/09/2021
+
+### Migration towards pairs v2.2 (Fegex Pro)
+
+#### Gas rebat
+On new Fegex pro pairs after a transaction and if the conditions are met the person is able to get partially or even completly his gas fees. This fee is collected on a sell. Every sell will have 0.15% that goes towards this gas rabat.
+##### ETH side conditions
+* Hold 20B feg.
+* A sell be under 1 ETH worth.
+* A buy be above 0.05 ETH worth.
+* Needs to be a fegex pro trading pair.
+
+##### BSC side conditions
+* Hold 20B feg.
+* A sell be under 2 BNB worth.
+* A buy be above 0.2 ETH worth.
+* Needs to be a fegex pro trading pair.
+
+#### Results
+**BSC side**
+
+Here we can see that the user got even more in return  than  what he paid  for
+![image](https://user-images.githubusercontent.com/82654229/134473150-c818b763-322c-4ac4-9132-0341619b5590.png)
+
+**ETH side**
+
+Here we can see that the user only paid for 40% of the gas fees
+
+![image](https://user-images.githubusercontent.com/82654229/134473233-04b24045-2655-488c-8c3d-143a62832ace.png)
+
+
+### Autodeployer update
+The autodeployer is now deploying PRO pairs only. A migration is made possible from pair v2.1 to v2.2. Once v2.2 is created no further migration is possible and further liquidity needs to wait 1 year until it unlocks.
+
+All pair owners will NOW have direct access to pool settings and “sell-shares” and they have an ability to set an activation of their trading pair. This allows owners to inform the community and avoids getting  snipped by bots.
+
+Staking has now been  increased to 0.15% of every sell and having a treshold to avoid that every transaction pais more gas fees due to a transfer beeing done
+
+Every sell/buy has a 0.1% fees to buy and burn feg. Brining the total to:
+
+* 0.1% buying fee
+* 0.60% sell transaction fee
+
+
 ## 03/09/2021
 
 ### Migration towards pairs v2.1
